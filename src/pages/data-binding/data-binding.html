@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>data-binding</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h2>Interpolacao</h2>
+  <p>o valor de 1+1: {{ 1+1 }}</p>
+  <p>o valor de 1+1 não é: {{ 1+1+getValor() }}</p>
+
+  <h2>Property Bindind</h2>
+  <!-- <img src="{{ imgUrl }}" alt="">
+  <img [src]="imgUrl" alt="">
+  <img bind-src="imgUrl" alt=""> -->
+
+  <h2>Event Binding</h2>
+  <button ion-button block (tap)="botaClicadoEvent()" >me clique!</button>
+
+  <input #campoInput type="text" 
+    (keyup)="textoDigitadoEvent(campoInput.value)"
+    (keyup.enter)="salvarTexto()"
+    (blur)="salvarTexto()" >
+  <p>valor atual do campo: {{ valorAtual }}</p>
+  <p>valor salvo: {{ valorSalvo }}</p>
+  <p>teste: {{valorAtual.length }}</p>
+
+  <div style="border: solid 1px; height: 10em;" [class.success]="campoInput.value.length > 3">
+
+  </div>
+
+  
+  
+
+</ion-content>

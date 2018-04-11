@@ -15,4 +15,5 @@ Conteúdo:\
 5 - Diretivas\
 6 - Serviços\
 7 - Pipes\
+8 - Formulários
 

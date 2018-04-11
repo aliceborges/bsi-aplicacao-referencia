@@ -13,7 +13,7 @@ Conteúdo:\
 3 - Serviços (providers) e Injeção de dependência\
 4 - Componentes\
 5 - Diretivas\
-6 - Serviços\
+6 - Providers\
 7 - Navegação\
 8 - Formulários
 

@@ -14,6 +14,6 @@ Conteúdo:\
 4 - Componentes\
 5 - Diretivas\
 6 - Serviços\
-7 - Pipes\
+7 - Navegação\
 8 - Formulários
 
